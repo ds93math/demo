@@ -3,8 +3,8 @@ import socket, threading                                                #Librari
 
 
 
-host = "10.128.64.2"                                                     #LocalHost
-port = 7976                                                             #Choosing unreserved port
+host = "10.128.64.2"                                                     #LocalHost Private
+port = 7900                                                             #Choosing unreserved port
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)              #socket initialization
 server.bind((host, port))                   #binding host and port to socket
